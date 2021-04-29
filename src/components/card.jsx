@@ -7,7 +7,7 @@ const useStyles =  makeStyles({
         minWidth: 275
     },
     text:{
-        'text-align':'center'
+        textAlign: 'left'
     }
 })
 
