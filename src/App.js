@@ -1,13 +1,16 @@
 // import './App.css';
 import './styles/App.css'
-import Header from "./components/header";
-import SimpleCard from './components/card'
+import SimpleCard from './components/UI/SimpleCard'
+import MainHeader from './components/MainHeader/MainHeader';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <SimpleCard/>
+      <MainHeader />
+      <main>
+        <SimpleCard />
+      </main>
+
     </div>
   );
 }
