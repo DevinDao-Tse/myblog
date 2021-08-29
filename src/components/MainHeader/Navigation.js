@@ -1,5 +1,6 @@
 import React from 'react'
 import classes from './Navigation.module.css'
+import { Home } from '@material-ui/icons'
 
 const Navigation = props => {
   return (
